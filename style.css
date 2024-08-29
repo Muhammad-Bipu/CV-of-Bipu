@@ -1,0 +1,114 @@
+
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: #EEE;
+            font-family: "Roboto", sans-serif;
+        }
+        .container{
+            max-width: 1000px;
+            padding: 20px;
+            background-color: aquamarine;
+            margin: 0 auto;
+        }
+        header{
+
+        }
+        .profile-img{
+            width: 100px;
+            height: 120px;
+            border: 3px solid white;
+            border-radius: 50%;
+            float: left;
+        }
+        .header_bio{
+            float: left;
+            padding: 30px;
+        }
+        h1, h2, h3, h4, h5, h6{
+            color: green;
+        }
+        .header_contact{
+            float: right;
+            padding: 30px;
+        }
+        .header_contact a{
+            text-decoration: none;
+            color: green;
+            font-weight: bolder;
+        }
+        .header_contact a:hover{
+            text-decoration: underline;
+            color: tomato;
+        }
+        .div_clear{
+            clear: both;
+        }
+        hr{
+            border: 3px black solid;
+            border-bottom: none;
+            margin: 20px auto;
+        }
+        /*----------------
+        personal section starts
+        -----------------*/
+        #personal_section{
+
+        }
+        .content{
+
+        }
+        .left_div{
+            float: left;
+            width: 30%;
+        }
+        .right_div{
+            float: right;
+            width: 70%;
+        }
+        /*-------------
+        personal section ends
+        ------------------*/
+        .common_hr{
+            border: black 1px solid;
+            width: 100%;
+            border-bottom: none;
+            margin: 20px auto;
+        }
+        /*-----------
+        education section
+        -----------*/
+        .edu_left{
+            float: left;
+            width: 45%;
+        }
+        .edu_right{
+            float: right;
+            width: 45%;
+        }
+        /*----------------
+        footer section
+        --------------------*/
+        #bottom_container{
+            background-color: black;
+            text-align: center;
+            padding: 20px;
+        }
+        #bottom_container a{
+            color: white;
+            text-decoration: none;
+            margin: 20px;
+        }
+        #bottom_container a:hover{
+            color: red;
+            text-decoration: underline;
+            margin: 20px;
+        }
+        #bottom_container p{
+            color: white;
+            margin: 20px;
+        }
+
+   
